@@ -153,27 +153,31 @@
 
     <field name="mooc_expertise_exact" type="string" indexed="true" stored="true" multiValued="true" />
 
-    <field name="mooc_expertise" type="text_en" indexed="true" stored="true" multiValued="true" />
-
-    <field name="oer_expertise" type="text_en" indexed="true" stored="true" multiValued="true" />
-
-    <field name="pub_date" type="date" indexed="true" stored="true" multiValued="false" />
-
-    <field name="region_exact" type="string" indexed="true" stored="true" multiValued="true" />
-
-    <field name="openacess_expertise_exact" type="string" indexed="true" stored="true" multiValued="true" />
-
-    <field name="text" type="text_en" indexed="true" stored="true" multiValued="false" />
-
-    <field name="oer_expertise_exact" type="string" indexed="true" stored="true" multiValued="true" />
-
     <field name="general_expertise" type="text_en" indexed="true" stored="true" multiValued="true" />
 
-    <field name="general_expertise_exact" type="string" indexed="true" stored="true" multiValued="true" />
+    <field name="mooc_expertise" type="text_en" indexed="true" stored="true" multiValued="true" />
+
+    <field name="country" type="text_en" indexed="true" stored="true" multiValued="true" />
 
     <field name="openacess_expertise" type="text_en" indexed="true" stored="true" multiValued="true" />
 
+    <field name="openacess_expertise_exact" type="string" indexed="true" stored="true" multiValued="true" />
+
+    <field name="general_expertise_exact" type="string" indexed="true" stored="true" multiValued="true" />
+
+    <field name="country_exact" type="string" indexed="true" stored="true" multiValued="true" />
+
+    <field name="pub_date" type="date" indexed="true" stored="true" multiValued="false" />
+
+    <field name="text" type="text_en" indexed="true" stored="true" multiValued="false" />
+
+    <field name="region_exact" type="string" indexed="true" stored="true" multiValued="true" />
+
+    <field name="oer_expertise_exact" type="string" indexed="true" stored="true" multiValued="true" />
+
     <field name="region" type="text_en" indexed="true" stored="true" multiValued="true" />
+
+    <field name="oer_expertise" type="text_en" indexed="true" stored="true" multiValued="true" />
 
   </fields>
 
